@@ -40,5 +40,40 @@ spam-detector/
     index.html 
   static/ 
     style.css 
+  requirements.txt (flask
+                    nltk
+                    scikit-learn
+                    pandas
+                    numpy)
+
+    
+---
+
+##  How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/spam-message-classifier.git
+   cd spam-message-classifier
+   (optional )=create a virtual environment
+   pip install -r requirements.txt
+   python download_nltk_data.py
+   python app.py
+   http://127.0.0.1:5000/
+2.Requirements:
+              flask
+              nltk
+              scikit-learn
+              pandas
+              numpy
+3.Credits
+Dataset: SMS Spam Collection Dataset
+
+Author: suman ghosh
+
+
+
+
+
 
 
